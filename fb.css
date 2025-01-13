@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(243, 240, 240);
+    
+}
+
+.container{
+    display: flex;
+}
+.left{
+    flex: 50%;
+}
+img{
+    /*margin: 115px;
+    position: relative;
+    top: 63px;*/
+    margin-top: 180px;
+    margin-left: 115px ;
+    height: 76px;
+
+}
+.left p{
+    margin-top: 5px;
+    margin-left: 134px;
+    font-size: 27px;
+    font-family: Helvetica;
+}
+.right{
+    flex: 50%;
+}
+
+.box{
+    text-decoration: none;
+    height: 350px;
+    width: 400px;
+    border-radius:10px;
+    margin: 125px 0px 0px 80px;
+    background-color: rgb(255, 255, 255);
+    
+}
+input{
+    height:50px;
+    width: 365px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border: 0.5px solid rgb(174, 169, 169);
+}
+.password{
+    margin-top: -10px;
+    cursor: pointer;
+}
+input::placeholder{
+    font-size: 17px;
+    font-family: Helvetica; 
+    padding-left: 6px;  
+    color: #8f8e8e;
+}
+.login{
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 10px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.forget{
+    color: blue;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create{
+    color: white;
+    background-color: #73de4c;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 120px;
+    height: 35px;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.forget  a{
+    text-decoration:none ;
+    color: #0e0eea;
+    text-align: center;
+    
+}
+
+.page a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px 0px 20px 0px;
+    color: black;
+}
+.page p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.page a:hover{
+    font-style: italic;
+    
+    text-decoration: underline;
+}
+
+hr{
+    width: 350px;
+}
